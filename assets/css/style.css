@@ -169,7 +169,7 @@
 	 font-weight: 300;
 }
  .profile .contact-presentation {
-	 text-align: left;
+	 text-align: justify;
 	 font-weight: 300;
 	 margin-top: 100px;
 	 margin-bottom: 100px;
@@ -234,7 +234,7 @@
  .experience .job-wrapper {
 	 width: 70%;
 	 float: left;
-	 text-align: left;
+	 text-align: justify;
 	 padding-right: 5%;
 	 margin-bottom: 60px;
 }
@@ -243,6 +243,11 @@
 		 width: 100%;
 		 margin-bottom: 40px;
 	}
+.company-description {
+	text-align: left;
+	
+}
+
 }
  .experience .experience-title {
 	 color: white;
@@ -260,22 +265,7 @@
 	 .section-padding {
 		 padding: 40px 10% 20px 5%;
 	}
-}
- .section-wrapper {
-	 width: 50%;
-	 float: left;
-	 text-align: left;
-	 color: #9099a0;
-	 font-weight: 300;
-	 margin-bottom: 20px;
-}
- @media (max-width: 450px) {
-	 .section-wrapper {
-		 width: 100%;
-	}
-}
- .section-wrapper:nth-child(3) {
-	 padding-right: 8%;
+
 }
  .section-wrapper h3.section-title {
 	 color: #6c9;
@@ -285,108 +275,5 @@
 	 margin-bottom: 20px;
 	 font-weight: 400;
 }
- .section-wrapper .skill-percentage {
-	 margin-bottom: 10px;
-	 position: relative;
-}
- .section-wrapper .skill-percentage::after {
-	 content: "";
-	 width: 100%;
-	 height: 6px;
-	 background: #4a4e51;
-	 display: block;
-	 margin-top: 3px;
-}
- .section-wrapper .skill-percentage::before {
-	 content: "";
-	 height: 6px;
-	 background: #6c9;
-	 position: absolute;
-	 margin-top: 3px;
-	 bottom: 0;
-}
- .section-wrapper .skill-percentage:nth-child(1)::before {
-	 width: 80%;
-	 animation: skill_1 0.6s ease;
-}
- .section-wrapper .skill-percentage:nth-child(2)::before {
-	 width: 90%;
-	 animation: skill_2 0.6s ease;
-}
- .section-wrapper .skill-percentage:nth-child(3)::before {
-	 width: 50%;
-	 animation: skill_3 0.6s ease;
-}
- .section-wrapper .skill-percentage:nth-child(4)::before {
-	 width: 60%;
-	 animation: skill_4 0.6s ease;
-}
- .section-wrapper .skill-percentage:nth-child(5)::before {
-	 width: 70%;
-	 animation: skill_5 0.6s ease;
-}
- .section-wrapper .skill-percentage:nth-child(6)::before {
-	 width: 70%;
-	 animation: skill_6 0.6s ease;
-}
- .section-wrapper .skill-percentage:nth-child(7)::before {
-	 width: 70%;
-	 animation: skill_6 0.6s ease;
-}
- @keyframes skill_1 {
-	 from {
-		 width: 0%;
-	}
-	 to {
-		 width: 80%;
-	}
-}
- @keyframes skill_2 {
-	 from {
-		 width: 0%;
-	}
-	 to {
-		 width: 90%;
-	}
-}
- @keyframes skill_3 {
-	 from {
-		 width: 0%;
-	}
-	 to {
-		 width: 50%;
-	}
-}
- @keyframes skill_4 {
-	 from {
-		 width: 0%;
-	}
-	 to {
-		 width: 60%;
-	}
-}
- @keyframes skill_5 {
-	 from {
-		 width: 0%;
-	}
-	 to {
-		 width: 70%;
-	}
-}
- @keyframes skill_6 {
-	 from {
-		 width: 0%;
-	}
-	 to {
-		 width: 70%;
-	}
-}
- @keyframes skill_7 {
-	 from {
-		 width: 0%;
-	}
-	 to {
-		 width: 70%;
-	}
-}
+
  
