@@ -171,8 +171,8 @@
  .profile .contact-presentation {
 	 text-align: justify;
 	 font-weight: 300;
-	 margin-top: 100px;
-	 margin-bottom: 100px;
+	 margin-top: 50px;
+	 margin-bottom: 50px;
 }
  @media (max-width: 1200px) {
 	 .profile .contact-presentation {
@@ -249,10 +249,15 @@
 }
 
 }
- .experience .experience-title {
-	 color: white;
-	 margin-bottom: 15px;
-}
+.experience .experience-title {
+	color: white;
+	margin-bottom: 5px;
+  }
+  
+.job-wrapper {
+	color: gray;
+  }
+	 
  .section-padding {
 	 padding: 60px 60px 40px 40px;
 }
